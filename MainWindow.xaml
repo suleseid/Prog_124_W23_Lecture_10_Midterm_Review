@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prog_124_W23_Lecture_10_Midterm_Review"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="875">
     <Canvas Background="#FF8CB1B2">
         <Button x:Name="btnWindowOne" Content="Team Window" Canvas.Left="136" Canvas.Top="340" Height="42" Width="145" FontSize="20" Click="btnWindowOne_Click"/>
         <Button x:Name="btnWindowTwo" Content="Player Window" Canvas.Left="574" Canvas.Top="340" Height="42" Width="144" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnWindowTwo_Click"/>
