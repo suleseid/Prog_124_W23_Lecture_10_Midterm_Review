@@ -71,6 +71,11 @@ namespace Prog_124_W23_Lecture_10_Midterm_Review
 
         }
 
+        private void lbTeamRoster_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
         // Creating 3 buttons
         // Opening new windows with each button
 

@@ -10,7 +10,7 @@
         <Button x:Name="btnWindowOne" Content="Team Window" Canvas.Left="136" Canvas.Top="340" Height="42" Width="145" FontSize="20" Click="btnWindowOne_Click"/>
         <Button x:Name="btnWindowTwo" Content="Player Window" Canvas.Left="574" Canvas.Top="340" Height="42" Width="144" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnWindowTwo_Click"/>
         <Button x:Name="btnWindowThree" Content="Assign Player" Canvas.Left="361" Canvas.Top="135" Height="42" Width="138" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnWindowThree_Click"/>
-        <ListBox x:Name="lbTeamRoster" Height="234" Width="207" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Left="105" Canvas.Top="60" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <ListBox x:Name="lbTeamRoster" Height="234" Width="207" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Left="105" Canvas.Top="60" HorizontalAlignment="Left" VerticalAlignment="Center" SelectionChanged="lbTeamRoster_SelectionChanged"/>
         <ListBox x:Name="lbPlayers" Height="258" Width="232" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Left="530" Canvas.Top="48" HorizontalAlignment="Left" VerticalAlignment="Center" SelectionChanged="lbPlayers_SelectionChanged"/>
         <ComboBox x:Name="cbTeams" Canvas.Left="93" Canvas.Top="29" Width="231" HorizontalAlignment="Center" VerticalAlignment="Top" SelectionChanged="cbTeams_SelectionChanged"/>
     </Canvas>
